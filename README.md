@@ -23,4 +23,8 @@ If the answer is incorrect, the server sends a response status code of 400 along
 	Question: Please sum the numbers 7,3,3
 	Your answer: 15
 	Result: Your answer is incorrect. Please try again.
+	
+Any other invalid requests, such as incorrectly formatted JSON data, will result in a server response status code of 400 and a message similar to the one below:
+
+	Invalid request. Please try again.
   
