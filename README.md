@@ -1,8 +1,7 @@
 # AddNumbersService
 This repository contains a Spring Boot project that allows a user to make API calls to the server to either request a question or send an original question sent by the server along with the answer to validate if the answer is correct. 
 
-Configuring the port to run the web server: 
-The default port that the web server is running from is port 9000. To modify the port number, go to the application.properties file and change the server.port value to another port number. For example: server.port=8080
+The default port that the web server is running from is port 9000. However, this can be modified. To modify the port number, go to the application.properties file and change the server.port value to another port number. For example: server.port=8080
 
 The two API endpoints are described below:
 
