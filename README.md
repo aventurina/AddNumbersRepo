@@ -3,7 +3,7 @@ This repository contains a Spring Boot project that allows a user to make API ca
 
 The default port that the web server is running from is port 9000. However, this can be modified. To modify the port number, go to the application.properties file and change the server.port value to another port number. For example: server.port=8080
 
-The two API endpoints are described below:
+To use the APIs, there are two endpoints that can be accessed by making HTTP requests. The two endpoints are described below:
 
 1. To retrieve a new question from the server, make a GET request to this url: http://<HOSTNAME>:9000/question. Ensure that the HOSTNAME is replaced with the correct hostname or IP address. 
   
