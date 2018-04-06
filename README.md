@@ -29,3 +29,7 @@ Any other invalid requests, such as incorrectly formatted JSON data, will result
 
 	Invalid request. Please try again.
   
+If the question being answered has already been previously answered correctly, then a server response status code of 400 and a message like below is sent back to the customer:
+
+	The question has already been previously answered correctly.
+	Please retrieve a new question to answer.
