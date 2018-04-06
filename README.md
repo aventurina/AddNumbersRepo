@@ -3,7 +3,7 @@ This repository contains a Spring Boot project that allows a user to make API ca
 
 The default port that the web server is running from is port 9000. However, this can be modified. To modify the port number, go to the application.properties file and change the server.port value to another port number. For example: server.port=8080
 
-To run the jar file, there is a script called runService.bat under the /extra-resources/scripts directory that can be executed. Ensure that the add-numbers-service.jar file and the application properties are in the same location as the batch file.
+To run the jar file, there is a script called runService.bat under the /extra-resources/scripts directory that can be executed. Ensure that the add-numbers-service.jar file and the application.properties are in the same location as the batch file.
 
 To use the APIs, there are two endpoints that can be accessed by making HTTP requests. The two endpoints are described below:
 
